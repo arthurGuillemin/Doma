@@ -1,0 +1,64 @@
+:root {
+  /* Colors */
+  --color-bg: #f5f3ef;
+  --color-surface: rgba(255, 255, 255, 0.92);
+  --color-surface-solid: #ffffff;
+
+  --color-text: #171925;
+  --color-text-secondary: #666a73;
+  --color-text-muted: #979ba4;
+
+  --color-border: rgba(20, 24, 35, 0.08);
+
+  --color-blue: #4f7cff;
+  --color-blue-soft: #eaf0ff;
+
+  --color-green: #3a9b64;
+  --color-green-soft: #e8f5ed;
+
+  --color-orange: #e49a32;
+  --color-orange-soft: #fff1dc;
+
+  --color-red: #e66b58;
+  --color-red-soft: #fdebe7;
+
+  /* Typography */
+  --font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.6rem;
+  --font-size-2xl: 2.4rem;
+  --font-size-clock: 4.5rem;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Layout */
+  --page-padding: 28px;
+  --widget-gap: 16px;
+
+  /* Radius */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 28px;
+
+  /* Shadow */
+  --shadow-widget:
+    0 2px 4px rgba(0, 0, 0, 0.02),
+    0 8px 24px rgba(0, 0, 0, 0.04);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+}
